@@ -1,6 +1,6 @@
-
 import './App.css';
 import Nav from './components/nav';
+import TestComponent from './components/testComponent';
 import About from './views/about';
 
 function App() {
@@ -18,6 +18,8 @@ function App() {
         <p>{Math.random()}</p>
         <hr />
         <About />
+        <hr />
+        <TestComponent />
     </div>
   );
 }

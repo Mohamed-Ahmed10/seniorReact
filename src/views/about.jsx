@@ -5,8 +5,14 @@ const About = () => {
         <div>
             <Nav />
             This is about
+
+            <button onClick={addNew}>Click here</button>
         </div>
     );
 }
- 
+
+var  addNew = () =>
+{
+    console.log("TEST")
+}
 export default About;

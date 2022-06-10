@@ -1,7 +1,7 @@
 const Nav = () => {
     return (
         <>
-            <li>test</li>
+            <li style={{color:'#F00' , backgroundColor : '#00F' , margin : '10px'}}>test</li>
         </>
         
     );
