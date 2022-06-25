@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactNasrcity/static/css/main.601036b5.css",
+    "main.js": "/reactNasrcity/static/js/main.573aa6b8.js",
+    "index.html": "/reactNasrcity/index.html",
+    "main.601036b5.css.map": "/reactNasrcity/static/css/main.601036b5.css.map",
+    "main.573aa6b8.js.map": "/reactNasrcity/static/js/main.573aa6b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.601036b5.css",
+    "static/js/main.573aa6b8.js"
+  ]
+}
