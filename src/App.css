@@ -10,3 +10,13 @@
   margin: 20px;
   background-color: azure;
 }
+
+ul
+{
+  list-style:none;
+  display: flex;
+}
+li
+{
+  margin: 10px;
+}

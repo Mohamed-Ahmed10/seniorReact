@@ -6,7 +6,8 @@ import NewComp from './components/newComp';
 import TestComponent from './components/testComponent';
 import About from './views/about';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import PropsTraining from './components/propsTraining';
+import { Routes, Route } from "react-router-dom";
 function App() {
 
   var myName = "Mohamed Ahmed";
@@ -14,13 +15,19 @@ function App() {
 
   return (
     <div className="App">
-      Hello react in senior steps
-      {/* <NewComp />
-      <hr />
-      <TestComponent />
-      <hr />
-      <Data /> */}
-      <BootstrapTraining />
+      <Nav />
+
+      <Routes>
+        <Route path='/sessionOne' element= {<NewComp />}/>
+        <Route path='/test' element= {<TestComponent />}/>
+        <Route path='/data' element= {<Data />}/>
+        <Route path='/bootstrap' element= { <BootstrapTraining />}/>
+      </Routes>
+      
+
+
+      {/* <PropsTraining title="title one" desc="This is desc one"/>
+      <PropsTraining title="title two" desc="This is desc two"/> */}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 {
   "name": "new-app",
-  "homepage":"http://Mohamed-Ahmed10.github.io/reactNasrcity",
+  "homepage": "http://Mohamed-Ahmed10.github.io/reactNasrcity",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,12 +11,13 @@
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy" : "new-app  -d build",
+    "predeploy": "npm run build",
+    "deploy": "new-app  -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
