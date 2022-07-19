@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../App.css";
+import "../App.scss";
 const Nav = () => {
     return (
         <>

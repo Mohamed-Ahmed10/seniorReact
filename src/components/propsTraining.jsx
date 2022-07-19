@@ -1,10 +1,10 @@
 const PropsTraining = (props) => {
-    const title = props.title;
-    const desc = props.desc;
+    // const title = props.title;
+    // const desc = props.desc;
     return ( 
         <div>
-            <h2>{title}</h2>
-            <p>{desc}</p>
+            <h2>{props.title}</h2>
+            <p>{props.desc}</p>
             <hr />
         </div>
     );

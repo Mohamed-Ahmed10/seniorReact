@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import BootstrapTraining from './components/bootstrapTraining';
 import Data from './components/data';
 import Nav from './components/nav';
@@ -8,6 +8,7 @@ import About from './views/about';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import PropsTraining from './components/propsTraining';
 import { Routes, Route } from "react-router-dom";
+import source from "./images/logo.svg";
 function App() {
 
   var myName = "Mohamed Ahmed";
@@ -25,9 +26,10 @@ function App() {
       </Routes>
       
 
+      <img src={source} alt="grerfgre" />
 
-      {/* <PropsTraining title="title one" desc="This is desc one"/>
-      <PropsTraining title="title two" desc="This is desc two"/> */}
+      <PropsTraining title="title one" desc="This is desc one"/>
+      <PropsTraining title="title two" desc="This is desc two"/>
     </div>
   );
 }
